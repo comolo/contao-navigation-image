@@ -1,4 +1,3 @@
-contao-navigation-image
-=======================
+# Contao Extension: navigation-image
 
-Contao extension: Assigns images to navigation items
+Assigns images to navigation items
