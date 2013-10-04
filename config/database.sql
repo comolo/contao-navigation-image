@@ -19,5 +19,5 @@
 --
 
 CREATE TABLE `tl_page` (
-  `navigationImage` varchar(255) NOT NULL default '',
+  `navigationImage` binary(16) NULL,
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
