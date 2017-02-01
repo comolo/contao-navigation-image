@@ -1,0 +1,31 @@
+{
+  "name": "comolo/contao-navigation-image",
+  "description": "Assigns images to navigation items",
+  "keywords": ["contao", "navigation"],
+  "type": "contao-module",
+  "homepage": "https://github.com/comolo/contao-navigation-image",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MADE/YOUR/DAY",
+      "homepage": "https://github.com/madeyourday",
+      "role": "Developer"
+    },
+    {
+      "name": "Hendrik Obermayer, Comolo GmbH",
+      "homepage": "http://www.comolo.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "contao/core-bundle": "~3.5 || ~4.1",
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/navigation_image"
+      }
+    }
+  }
+}
