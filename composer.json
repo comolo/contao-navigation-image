@@ -24,7 +24,7 @@
   "extra": {
     "contao": {
       "sources": {
-        "": "system/modules/navigation_image"
+        "": "system/modules/navigation-image"
       }
     }
   }
