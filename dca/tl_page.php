@@ -1,11 +1,13 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php
 
-/*
- * Copyright MADE/YOUR/DAY <mail@madeyourday.co>
+/**
+ * Contao Navigation Image
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * @copyright 2016 MADE/YOUR/DAY <mail@madeyourday.co>
+ * @copyright 2017 Comolo GmbH
+ * @license MIT
  */
+
 
 /**
  * Palettes
@@ -30,4 +32,5 @@ $GLOBALS['TL_DCA']['tl_page']['fields']['navigationImage'] = array(
 		'filesOnly'  => true,
 		'extensions' => 'jpg,jpeg,gif,png'
 	),
+    'sql'       => 'binary(16) NULL',
 );
